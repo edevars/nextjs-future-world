@@ -1,6 +1,6 @@
 'use client';
 import { useChat } from 'ai/react';
-import styles from './chat.module.sass';
+import styles from './Chat.module.sass';
 
 export const Chat = (props: { agent: string }) => {
   const { messages, input, handleInputChange, handleSubmit } = useChat({
